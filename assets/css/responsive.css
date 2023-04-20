@@ -1,0 +1,139 @@
+
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+    
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root
+{
+    /* ----Background Color---- */
+    --bg-danger: #f63440;
+    --bg-white: #FFF;
+    --bg-light-white: #f5f5f5;
+   
+    /* ----Text-Color------- */
+    --primary-font: 'Poppins', sans-serif;
+    --text-white: #fff;
+    --text-black: #121212;
+    --text-danger: #f63440;
+    --text-dark-gray: #777;
+    --text-gray: #aaa;
+}
+
+
+
+@media (max-width:1030px) {
+
+   .home .home-banner-1,
+   .home .home-banner-2{
+    background-position: 65% center;
+    min-height: 550px;
+   }
+   .home .home-banner .home-banner-text{
+    transform: translate(-80%, -50%);
+   }
+   .home .carousel-indicators [data-bs-target]{
+    margin-top: -50px;
+    }
+
+    .offers .offer-box .offer-info .heading-bigger{
+        font-size: 3rem;
+    }
+
+    .countdown-container.countdown-counter li{
+        padding: 1.5rem 1rem;
+    }
+
+     
+     
+
+    
+}
+
+@media (max-width:991px) {
+    
+    .home .home-banner .home-banner-text{
+        transform: translate(-66%, -50%);
+    }
+    .countdown-container.countdown-counter li{
+        padding-top:1rem;
+        padding-bottom: 5rem;
+    }
+    .testinomials .carousel-control-next-icon
+{
+    right: -1.75rem;
+    
+}
+.testinomials .carousel-control-prev-icon
+{
+    left: -1.75rem;
+    
+}
+     
+
+}
+
+@media (max-width:767px) {
+    .home .home-banner-1,
+    .home .home-banner-2{
+        background-position: center;
+        min-height: 450px;
+    }
+    
+    .home .home-banner .home-banner-text{
+        transform: translate(-50%, -50%);
+        width: 100%;
+        text-align: center;
+    }
+    .home .home-banner .home-banner-text h1{
+        font-size: 3rem;
+    }
+     
+    .home .home-banner .home-banner-text h2{
+        font-size: 1.2rem;
+    }
+
+    .btn-danger{
+        padding: 0.5rem 1.5rem;
+    }
+    .home .slider-icon{
+        font-size: 2rem;
+    }
+    .products .up_to_content h2{
+        font-size: 0.75rem;
+    }
+    .special{
+        padding: 4rem 0;
+    }
+    .countdown-container.countdown-counter li{
+        padding:1rem;
+        width: 20%;
+    }
+    .testinomials .testinomial-wrapper{
+        padding: 1rem;
+    }
+    .testinomials .carousel-control-next-icon,
+    .testinomials .carousel-control-prev-icon
+    {
+    display: none;
+    
+    }
+    
+     
+
+}
+
+@media (max-width:330px){
+    .home .home-banner .home-banner-text h2{
+        font-size: 1rem;
+    }
+    
+}
+
